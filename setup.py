@@ -29,7 +29,7 @@ setuptools.setup(
     extras_require={
         "fast": ["cryptg>=0.2"],
     },
-    python_requires="~=3.9",
+    python_requires="~=3.10",
 
     classifiers=[
         "Development Status :: 4 - Beta",
