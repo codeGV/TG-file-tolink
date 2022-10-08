@@ -21,8 +21,8 @@ except (KeyError, ValueError):
     sys.exit(1)
 
 trust_headers = bool(os.environ.get("TRUST_FORWARD_HEADERS"))
-host = os.environ.get("HOST", "15.207.14.92/file")
-public_url = URL(os.environ.get("PUBLIC_URL", f"http://{host}:{port}"))
+host = os.environ.get("HOST", "15.207.14.92")
+public_url = URL(os.environ.get("PUBLIC_URL", f"http://{host}:{port}/file"))
 
 session_name = os.environ.get("TG_SESSION_NAME", "1BVtsOJwBu3X9W_FdwLUoi5NJCShhbgvOFI8k9dTejVVCsF6hto5UmbmE-PlH66sXcM4WMYlMELMDp9bxpm4uz0dPDrewIUy1sK8grOQSrgvMKmNf3a2OX2_iIccr04TYQH4fvskxPog43-o_0QaAuH0Km8yMLWB5oQv_bf3IqLL86Mpp3t6ak6X5ZfDgX4V4nDY_D5SC935WezSEWU1HzbtnctAezT911pSNFdpaCaLPgUdCZdJMMTXr9F7kfXAW7eroxIc57J9UCqQsaxfItv9pTeQbWRSy3rX8lJgHRYIX8Tw-4pA6_mt_5qVlo7II4kJowJtiKSAHYPsq4dXnjXwu9dlAbWI=")
 
