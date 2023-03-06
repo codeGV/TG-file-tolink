@@ -1,4 +1,5 @@
-# Telegram File To Link Generation Bot
+
+# Kuki Telegram File Host Link Generation Bot
 A Telegram bot that can stream Telegram files to users over HTTP.
 
 ## Setup
